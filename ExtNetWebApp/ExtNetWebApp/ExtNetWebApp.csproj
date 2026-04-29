@@ -85,22 +85,167 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AccordionLayaouExtnet.aspx" />
+    <Content Include="AccordionSubClasesExtNet.aspx" />
     <Content Include="App_Readme\Ext.NET.Utilities\BREAKING_CHANGES.txt" />
     <Content Include="App_Readme\Ext.NET.Utilities\LICENSE.txt" />
     <Content Include="App_Readme\Ext.NET.Utilities\README.txt" />
     <Content Include="App_Readme\Transformer.NET\LICENSE.txt" />
     <Content Include="App_Readme\Transformer.NET\README.txt" />
+    <Content Include="CentrandoHboxVboxExtNet.aspx" />
     <Content Include="Ext.NET.Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="FitLayoutASpNet.aspx" />
+    <Content Include="GridExtNet.aspx" />
+    <Content Include="HboxLayoutExtNet.aspx" />
+    <Content Include="Layout3RegionesASPNet.aspx" />
+    <Content Include="Layout4RegionesExtnet.aspx" />
+    <Content Include="LayoutAccordionExtNet.aspx" />
+    <Content Include="MenusBotonesAnidados.aspx" />
+    <Content Include="panelExtnet.aspx" />
+    <Content Include="resources\css\bootstrap-theme.min.css" />
+    <Content Include="resources\css\bootstrap.min.css" />
+    <Content Include="resources\css\popper.htm" />
+    <Content Include="resources\img\FB_IMG_1699382150095.jpg" />
+    <Content Include="resources\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="resources\img\criollo.jpg" />
+    <Content Include="resources\js\bootstrap.min.js" />
+    <Content Include="resources\js\jquery-3.6.0.min.js" />
+    <Content Include="resources\js\npm.js" />
+    <Content Include="resources\js\popper.min.js" />
+    <Content Include="VboxLayoutExtNet.aspx" />
+    <Content Include="ViewportExtNet.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WIndowsButtonExtNet.aspx" />
+    <Content Include="WindowsPanelesxtnet.aspx" />
+    <Content Include="xTemplateExtNet.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccordionLayaouExtnet.aspx.cs">
+      <DependentUpon>AccordionLayaouExtnet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccordionLayaouExtnet.aspx.designer.cs">
+      <DependentUpon>AccordionLayaouExtnet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AccordionSubClasesExtNet.aspx.cs">
+      <DependentUpon>AccordionSubClasesExtNet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccordionSubClasesExtNet.aspx.designer.cs">
+      <DependentUpon>AccordionSubClasesExtNet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CentrandoHboxVboxExtNet.aspx.cs">
+      <DependentUpon>CentrandoHboxVboxExtNet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CentrandoHboxVboxExtNet.aspx.designer.cs">
+      <DependentUpon>CentrandoHboxVboxExtNet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FitLayoutASpNet.aspx.cs">
+      <DependentUpon>FitLayoutASpNet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FitLayoutASpNet.aspx.designer.cs">
+      <DependentUpon>FitLayoutASpNet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GridExtNet.aspx.cs">
+      <DependentUpon>GridExtNet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GridExtNet.aspx.designer.cs">
+      <DependentUpon>GridExtNet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HboxLayoutExtNet.aspx.cs">
+      <DependentUpon>HboxLayoutExtNet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HboxLayoutExtNet.aspx.designer.cs">
+      <DependentUpon>HboxLayoutExtNet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout3RegionesASPNet.aspx.cs">
+      <DependentUpon>Layout3RegionesASPNet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout3RegionesASPNet.aspx.designer.cs">
+      <DependentUpon>Layout3RegionesASPNet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout4RegionesExtnet.aspx.cs">
+      <DependentUpon>Layout4RegionesExtnet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout4RegionesExtnet.aspx.designer.cs">
+      <DependentUpon>Layout4RegionesExtnet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LayoutAccordionExtNet.aspx.cs">
+      <DependentUpon>LayoutAccordionExtNet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LayoutAccordionExtNet.aspx.designer.cs">
+      <DependentUpon>LayoutAccordionExtNet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenusBotonesAnidados.aspx.cs">
+      <DependentUpon>MenusBotonesAnidados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenusBotonesAnidados.aspx.designer.cs">
+      <DependentUpon>MenusBotonesAnidados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="panelExtnet.aspx.cs">
+      <DependentUpon>panelExtnet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="panelExtnet.aspx.designer.cs">
+      <DependentUpon>panelExtnet.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VboxLayoutExtNet.aspx.cs">
+      <DependentUpon>VboxLayoutExtNet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VboxLayoutExtNet.aspx.designer.cs">
+      <DependentUpon>VboxLayoutExtNet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewportExtNet.aspx.cs">
+      <DependentUpon>ViewportExtNet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewportExtNet.aspx.designer.cs">
+      <DependentUpon>ViewportExtNet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WIndowsButtonExtNet.aspx.cs">
+      <DependentUpon>WIndowsButtonExtNet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WIndowsButtonExtNet.aspx.designer.cs">
+      <DependentUpon>WIndowsButtonExtNet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WindowsPanelesxtnet.aspx.cs">
+      <DependentUpon>WindowsPanelesxtnet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WindowsPanelesxtnet.aspx.designer.cs">
+      <DependentUpon>WindowsPanelesxtnet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="xTemplateExtNet.aspx.cs">
+      <DependentUpon>xTemplateExtNet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="xTemplateExtNet.aspx.designer.cs">
+      <DependentUpon>xTemplateExtNet.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Readme\Ext.NET\README.md" />
     <Content Include="App_Readme\Ext.NET\LICENSE" />
     <Content Include="App_Readme\Ext.NET\CHANGELOG.md" />
     <None Include="packages.config" />
+    <Content Include="resources\css\bootstrap-theme.min.css.map" />
+    <Content Include="resources\css\bootstrap.min.css.map" />
+    <Content Include="resources\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="resources\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="resources\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="resources\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -108,6 +253,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
